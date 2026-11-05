@@ -1,0 +1,23 @@
+{
+  "name": "phonefarm",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "agents/*",
+    "packages/*",
+    "infrastructure/*",
+    "docs/*",
+    "scripts/*",
+    "tests/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -w run dev",
+    "build": "pnpm -w run build",
+    "lint": "pnpm -w run lint",
+    "test": "pnpm -w test"
+  },
+  "devDependencies": {
+    "pnpm": "^8.0.0"
+  }
+}

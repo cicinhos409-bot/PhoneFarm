@@ -1,0 +1,1 @@
+console.log('PhoneFarm Windows Agent started');

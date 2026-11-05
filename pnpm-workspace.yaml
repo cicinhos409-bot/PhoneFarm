@@ -1,0 +1,11 @@
+packages:
+  - "apps/*"
+  - "agents/*"
+  - "packages/*"
+  - "infrastructure/*"
+  - "docs/*"
+  - "scripts/*"
+  - "tests/*"
+allowBuilds:
+  '@nestjs/core': true
+  esbuild: true
